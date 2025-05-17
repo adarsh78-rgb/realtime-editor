@@ -1,0 +1,177 @@
+.homePageWrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+
+}
+footer{
+  bottom: 0;
+  position: fixed;
+
+}
+
+footer a{
+  color: chartreuse;
+  font-size: larger;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+
+.homepagelogo{
+  height: 80px;
+  margin-bottom: 30px;
+
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 17px;
+  margin-bottom: 15px;
+  border: none;
+  background: rgb(203, 244, 141);
+
+
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+
+}
+
+.joinBtn , .leaveBtn{
+  background: #0fd15c;
+  width: 100px;
+  margin-left: auto;
+  
+}
+
+.joinBtn:hover{
+  background: green;
+  font-size: larger;
+}
+
+.createInfo{
+  
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.createNewBtn{
+  text-decoration: none;
+  color: chartreuse;
+  font-size: larger;
+  font-style:italic;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+.createNewBtn:hover , footer a:hover {
+  font-size: x-large;
+  color: rgb(84, 208, 84);
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  /* height: 100vh; */
+}
+
+.aside{
+  background: #323030;
+  padding: 16px;
+  color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.asideInner{
+  flex: 1;
+
+}
+
+.cleintsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  
+
+}
+.userName{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.logoImage{
+  height: 60px;
+  position: relative;
+}
+.leaveBtn{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 7vh;
+  font-weight: bold;
+  width: 21vh;
+  
+}
+.leaveBtn:hover{
+  font-size: large;
+  background: green;
+  
+}
+.copyBtn{
+  background: #2375d3;
+  width: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 7vh;
+  font-weight: bold;
+  width: 21vh;
+}
+.copyBtn:hover{
+  font-size: large;
+  background: blue;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 9px);  
+  
+  font-size: 13px;
+  padding: 20px;
+  line-height: 1.6;
+}
